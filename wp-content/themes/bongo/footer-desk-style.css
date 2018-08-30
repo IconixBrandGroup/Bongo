@@ -1,0 +1,27 @@
+.site-footer #links a,.main-menu-container a {
+    font-family: tradegothicnormal;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+	}
+.site-footer #links a:after,.main-menu-container a:after {
+    border-bottom: thin solid #e12b34;
+    bottom: 0;
+    content: '';
+    left: 0;
+    display: block;
+    width: 0;
+    transition: width 0.3s ease-in;
+}
+.site-footer #links a:hover::after,.main-menu-container  a:hover::after{
+    width: 100%;
+    transition: width 0.3s ease-out;
+}
+.site-footer #links a:hover,.main-menu-container a:hover {
+    transition: all 0.2s ease-in;
+}
+.site-footer #links a,.main-menu-container a {
+    transition: all 0.2s ease-out;
+    font-style: normal;
+    font-weight: 500;
+}
