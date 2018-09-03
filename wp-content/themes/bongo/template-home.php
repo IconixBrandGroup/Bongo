@@ -65,6 +65,7 @@ function my_wp_is_mobile() {
 
 ?>
 
+<!--Mobile Layout-->
 <?php if ( my_wp_is_mobile() ) { ?>
 <div id="mob-featured" align="center">
     <a href="<?php print $featured_mob_link;?>" target="_blank"><img src="<?php print $featured_mob_image['url']; ?>" /></a>
@@ -105,6 +106,7 @@ function my_wp_is_mobile() {
     </div>
 </div>
 <?php } else {?>
+<!--DesktopLayout-->
 <div class="bongo-content">
 <div align="center">
     <a href="<?php print $featured_link;?>" target="_blank">
