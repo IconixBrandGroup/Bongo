@@ -139,14 +139,15 @@ function my_wp_is_mobile() {
     </div>
 </div>
    
-</div>   
-   <!--<div id="social-footer"> 
+</div>
+<!--Instagram Section Added-->
+   <div id="social-footer"> 
          <div id="let-social"><?php echo $social_content; ?></div>
 		 <div id="instagram-title"> <a href="<?php print $instagram_link; ?>" target="_blank"><?php echo $instagram_title; ?></a></div>
      <div id="icons">
        <div id="insta"><?php echo do_shortcode('[instagram-feed]');?></div>
      </div>
-   </div>-->
+   </div>
  
 <?php }?>
 
