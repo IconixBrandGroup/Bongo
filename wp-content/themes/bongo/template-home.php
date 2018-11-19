@@ -140,7 +140,6 @@ function my_wp_is_mobile() {
 </div>
    
 </div>
-
 <!--Instagram Section Added-->
    <div id="social-footer"> 
          <div id="let-social"><?php echo $social_content; ?></div>
