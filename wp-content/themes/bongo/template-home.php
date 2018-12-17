@@ -148,7 +148,7 @@ function my_wp_is_mobile() {
        <div id="insta"><?php echo do_shortcode('[instagram-feed]');?></div>
      </div>
    </div>
- 
+<!--Instagram Section End-->
 <?php }?>
 
 	
