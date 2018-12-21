@@ -66,9 +66,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 
-<?php
-$join_desktop = get_field('join_desktop');
-?>
 
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->
